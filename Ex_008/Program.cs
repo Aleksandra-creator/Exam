@@ -1,6 +1,6 @@
 ﻿
 
-System.Console.WriteLine ("Введите число:"); // Выводим подсказку на экран
+System.Console.Write ("Введите число:"); // Выводим подсказку на экран
 string inputString = Console.ReadLine(); // Получаем введенную строку 
 int value = Convert.ToInt32(inputString); // Преобразуем к целому типу
 
